@@ -1,0 +1,5 @@
+put speciesnet models here
+
+- always_crop_99710272_22x8_v12_epoch_00148.pt
+- full_image_88545560_22x8_v12_epoch_00153.pt
+- md_v5a.0.0.pt

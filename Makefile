@@ -1,4 +1,5 @@
 run:
+	export LIBTORCH=./libtorch\
 	cargo run
 build:
 	cargo build --release
@@ -12,5 +13,8 @@ format:
 	cargo fmt
 audit:
 	cargo audit
+# might not use
+init_libtorch:
+	./scripts/init_libtorch.sh
 set-githook-path:
 	git config core.hooksPath .githooks

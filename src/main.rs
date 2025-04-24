@@ -1,3 +1,7 @@
+use analyzer::Analyzer;
+
+mod analyzer;
+
 fn main() {
-    println!("Let's get this game started!")
+    let _analyzer = Analyzer::new();
 }
