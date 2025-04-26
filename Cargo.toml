@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 image = { version = "0.25.6", default-features = false, features = ["jpeg"] }
-tch = { version = "0.20.0", default-features = false }
+tch = { version = "0.20.0", default-features = false, features = ["download-libtorch"]}
 
 
 [profile.dev]

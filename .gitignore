@@ -2,5 +2,3 @@
 
 /models/*
 !/models/.gitkeep
-
-libtorch*
